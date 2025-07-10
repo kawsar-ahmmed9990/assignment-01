@@ -18,6 +18,11 @@
     border-radius: 5px;
 }
 
+/* header background image */
+header{
+    background-image: url(../Assets/Hero-bg.png);
+}
+
 /* Navbar section */
 nav{
     display: flex;
