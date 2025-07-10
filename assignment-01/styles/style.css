@@ -1,0 +1,33 @@
+
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+/* Shared section */
+.btn-primary{
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    width: 132px;
+    height: 48px;
+    border-radius: 5px;
+}
+
+/* Navbar section */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 152px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+nav p{
+    color: #4E47FF;
+    font-size: 34px;
+}
