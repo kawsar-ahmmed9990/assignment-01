@@ -54,13 +54,17 @@ header section button{
     margin-bottom: 150px;
 }
 
+main{
+    background-color: aquamarine;
+}
 /* action section */
 .action-container{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 60px;
-    margin: 15px 170px 30px 170px;
+    margin: 0px 170px 30px 170px;
+    padding: 15px;
 }
 .action-title{
     font-weight: bold;
@@ -103,3 +107,28 @@ header section button{
     color: #4E47FF;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Let’s Get In Touch Section */
+.in-touch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 75px 170px 30px 170px;
+    gap: 100px;
+}
+.in-touch-title{
+    font-weight: bold;
+    font-size: 97px;
+}
+form label{
+    display: block;
+}
+input, textarea {
+      width: 400px;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+      box-sizing: border-box;
+      background-color: aliceblue;
+    }
