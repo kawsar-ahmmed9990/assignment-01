@@ -13,8 +13,8 @@
     font-size: 16px;
     color: #FFFFFF;
     background-color: #4E47FF;
-    width: 132px;
     height: 48px;
+    padding: 0px 15px;
     border-radius: 5px;
 }
 
@@ -52,4 +52,23 @@ header section p{
 }
 header section button{
     margin-bottom: 150px;
+}
+
+/* action section */
+.action-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 15px 170px 30px 170px;
+}
+.action-title{
+    font: bold;
+    font-size: 42px;
+}
+.action-subtitle{
+    font-size: 24px;
+}
+.action-container img{
+    border-radius: 48px;
 }
