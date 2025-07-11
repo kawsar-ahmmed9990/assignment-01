@@ -1,5 +1,7 @@
 
-
+*{
+    margin: 0px;
+}
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -14,8 +16,12 @@
     color: #FFFFFF;
     background-color: #4E47FF;
     height: 48px;
-    padding: 0px 15px;
-    border-radius: 5px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: brown;
 }
 
 /* header background image */
@@ -31,9 +37,11 @@ nav{
     margin-bottom: 152px;
     margin-left: 150px;
     margin-right: 150px;
+    padding-top: 75px;
 }
 nav p{
     color: #4E47FF;
+    font-weight: bold;
     font-size: 34px;
 }
 
@@ -55,7 +63,7 @@ header section button{
 }
 
 main{
-    background-color: aquamarine;
+    background-color: azure;
 }
 /* action section */
 .action-container{
@@ -63,7 +71,7 @@ main{
     align-items: center;
     justify-content: center;
     gap: 60px;
-    margin: 0px 170px 30px 170px;
+    margin: 0px 150px 30px 150px;
     padding: 15px;
 }
 .action-title{
@@ -79,8 +87,9 @@ main{
 
 /* Productive users section*/
 .productive-users-container{
-    background-color: azure;
-    margin: 75px 170px 30px 170px;
+    background-color: #d9d7d7;
+    /* background-color: #B3B3B3; */
+    margin: 75px 150px 30px 150px;
     padding: 50px 80px;
     border-radius: 20px;
 }
@@ -108,17 +117,76 @@ main{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Users’ Feedback Section */
+.cards-heading{
+    margin-top: 150px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+.card-foot{
+    display: flex;
+    gap: 20px;
+}
+.reviewer-image{
+    border-radius: 50%;
+}
+.reviewer-name{
+    color: #757575;
+    font-weight: 600;
+}
+.review-date{
+    color: #B3B3B3;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+.cards-container{
+    display: flex;
+    gap: 15px;
+    margin: 75px 150px 30px 150px;
+}
+
+/* Extra part section */
+.extra-part{
+    text-align: center;
+    background-color: white;
+    margin: 75px 150px 30px 150px;
+    padding: 50px;
+    border-radius: 20px;
+}
+.extra-heading{
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0px;
+}
+.extra-subtitle{
+    color: #000000;
+}
+.extra-image{
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
 /* Let’s Get In Touch Section */
+.touch-btn{
+    width: 400px;
+}
 .in-touch{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 75px 170px 30px 170px;
+    margin: 75px 150px 0px 150px;
     gap: 100px;
+    padding-bottom: 50px;
 }
 .in-touch-title{
     font-weight: bold;
-    font-size: 97px;
+    font-size: 80px;
 }
 form label{
     display: block;
@@ -130,5 +198,33 @@ input, textarea {
       border-radius: 6px;
       font-size: 16px;
       box-sizing: border-box;
-      background-color: aliceblue;
-    }
+      background-color: white;
+}
+
+/* Footer section */
+footer{
+    background-color: white;
+}
+.footer-container{
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 100px;
+}
+.footer-logo{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    margin: 0px;
+    padding-top: 50px;
+}
+.footer-subtitle{
+    color: #8987A1;
+}
+.footer-link{
+    padding: 20px;
+    color: #8987A1;
+}
+footer a{
+    text-decoration: none;
+}
